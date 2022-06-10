@@ -17,20 +17,20 @@ const AppContent = () => {
       <Wrapper>
         <Header>
           <HeaderTop>
-            <Title>Party line</Title>
-            <Logo src={logo} className="App-logo" alt="logo" />
+            <Title>Intercom</Title>
+            <Logo src={logos} className="App-logo" alt="logo" />
           </HeaderTop>
-          <SmallText>An audio API demo from Daily</SmallText>
+          <SmallText>Imecomunicazione</SmallText>
         </Header>
         {view === PREJOIN && <PreJoinRoom />}
         {view === INCALL && <InCall />}
         <Link
           center={view === INCALL}
-          href="https://docs.daily.co/guides/demos#party-line-a-multiplatform-audio-only-app"
+          href="https://www.imecomunicazione.it"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn more about this demo
+          Link
         </Link>
       </Wrapper>
     </AppContainer>
