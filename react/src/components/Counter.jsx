@@ -24,7 +24,7 @@ const Counter = () => {
       if (secs <= 0) {
         clearInterval(interval.current);
         console.log("Eep! Room has expired");
-        leaveCall();
+        //leaveCall();
         return;
       }
       setCounter(value);
