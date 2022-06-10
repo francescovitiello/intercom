@@ -18,7 +18,7 @@ const AppContent = () => {
         <Header>
           <HeaderTop>
             <Title>Intercom</Title>
-            <Logo src={logos} className="App-logo" alt="logo" />
+            <Logo src={logo} className="App-logo" alt="logo" />
           </HeaderTop>
           <SmallText>Imecomunicazione</SmallText>
         </Header>
